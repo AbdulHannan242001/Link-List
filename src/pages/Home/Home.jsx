@@ -62,7 +62,7 @@ const Home = () => {
         <div style={divStyle}>
             <div className='px-12 md:max-w-[1400px] overflow-hidden mx-auto items-center flex flex-col'>
                 <div className='w-full h-auto text-center mb-4 mt-10'>
-                    <h1 className='text-primaryWhite font-semibold font-inter text-lg md:text-2xl mb-4'>Categories</h1>
+                    <h1 className='text-primaryWhite font-semibold font-inter text-lg md:text-2xl mb-4'>Adam & Friends Lists</h1>
                     <input
                         type="text"
                         className='bg-primaryWhite bg-opacity-30 rounded-2xl py-1 px-4 font-inter'

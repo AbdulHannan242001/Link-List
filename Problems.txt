@@ -1,0 +1,11 @@
+Problem:
+    Data privacy and Access
+Solution:
+    On logging in first ask if the user have a list-Space to login to.
+        Check if the list space exists.
+            If yes then ask for their Email and check it has already been registered?
+                If yes then Login to the List-Space 
+        If not then ask them to create a new list-space or recheck the name
+            Check if their have already been registered 
+                If not ask them to verify Via Email
+                    Provide Access to log into the newly created list-space

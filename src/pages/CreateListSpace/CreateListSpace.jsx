@@ -3,7 +3,7 @@ import bg1 from '../../assets/Backgrounds/bg1.png'
 import logo from '../../assets/Logo.png'
 import { Link } from 'react-router-dom'
 
-const Login = () => {
+const CreateListSpace = () => {
     const divStyle = {
         minHeight: '100vh',
         width: '100vw',
@@ -20,18 +20,17 @@ const Login = () => {
                 <img src={logo} alt="" />
             </div>
             <div className='flex flex-col items-center justify-center'>
-                <h1 className='text-white text-4xl md:text-5xl font-semibold font-inter mb-4 md:mb-8'>Welcome</h1>
+                <h1 className='text-white text-4xl md:text-5xl font-semibold font-inter mb-4 md:mb-8'>Create Your List Space</h1>
                 <form action="" className='flex flex-col border-b-[1px] md:border-b-2 border-slate-400 pb-8 md:pb-12'>
-                    <input className='w-full md:w-80 px-6 py-3 my-1 md:my-[5px] md:px-8 md:py-4 rounded text-sm md:text-base' type="email" placeholder='Email Address *' />
-                    <input className='w-full md:w-80 px-6 py-3 my-1 md:my-[5px] md:px-8 md:py-4 rounded text-sm md:text-base' type="password" placeholder='Password *' />
+                    <input className='w-full md:w-80 px-6 py-3 my-1 md:my-[5px] md:px-8 md:py-4 rounded text-sm md:text-base' type="email" placeholder='Enter List-Space-Name *' />
                     <div className='flex justify-center items-center mt-4 bg-primaryBlue text-white w-full md:w-80 px-6 py-3 md:px-8 md:py-4 rounded cursor-pointer'>
-                        <span className='md:text-xl text-lg font-semibold font-inter'>Login</span>
+                        <span className='md:text-xl text-lg font-semibold font-inter'>Create</span>
                     </div>
                 </form>
-                <p className='pt-4 text-primaryWhite text-sm font-thin'>Dont have an account? <Link to='/register' className='text-primaryBlue font-semibold font-inter border-b-2 border-primaryBlue'>Register</Link></p>
+                <p className='pt-4 text-primaryWhite text-sm font-thin'>Join Into Your List Space? <Link to='/list-space' className='text-primaryBlue font-semibold font-inter border-b-2 border-primaryBlue'>Join</Link></p>
             </div>
         </div>
     )
 }
 
-export default Login
+export default CreateListSpace

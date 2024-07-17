@@ -8,10 +8,12 @@ import Navbar from './components/Navbar/Navbar';
 import Lists from './pages/Lists/Lists';
 import CategoryPage from './pages/CategoryPage/CategoryPage';
 import { DataProvider } from './context/DataContext';
+import ListSpace from './pages/ListSpace/ListSpace';
+import CreateListSpace from './pages/CreateListSpace/CreateListSpace';
 
 function App() {
   const location = useLocation();
-  const showNavbar = location.pathname !== '/login' && location.pathname !== '/register';
+  const showNavbar = location.pathname !== '/login' && location.pathname !== '/list-space' && location.pathname !== '/create-list-space' && location.pathname !== '/register';
 
   return (
     <div>
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/list-space" element={<ListSpace />} />
+          <Route path="/create-list-space" element={<CreateListSpace />} />
           <Route path="/home" element={<Home />} />
           <Route path="/categories/:categoryName" element={<CategoryPage />} />
           <Route path="/lists/:categoryName/:listName" element={<Lists />} />

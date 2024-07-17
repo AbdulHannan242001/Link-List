@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Register = () => {
     const divStyle = {
-        height: '100vh',
+        minHeight: '100vh',
         width: '100vw',
         backgroundImage: `url(${bg1})`,
         backgroundRepeat: 'no-repeat',
