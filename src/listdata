@@ -1,0 +1,73 @@
+data = {
+  Categories: {
+    "Holidays Prepration": [
+      (sublist = true),
+      (Christmas = [
+        {
+          name: "List 1",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+        {
+          name: "List 2",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+      ]),
+      (NewYear = [
+        (sublist = true),
+        {
+          name: "List 1",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+        {
+          name: "List 2",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+      ]),
+    ],
+    "Kids Toys": [
+      (sublist = true),
+      (Trains = [
+        {
+          name: "List 1",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+        {
+          name: "List 2",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+      ]),
+      (Cars = [
+        {
+          name: "List 1",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+        {
+          name: "List 2",
+          img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+        },
+      ]),
+    ],
+    Shopping: [
+      (sublist = false),
+      {
+        name: "List 1",
+        img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+      },
+      {
+        name: "List 2",
+        img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+      },
+    ],
+    Others: [
+      (sublist = false),
+      {
+        name: "List 1",
+        img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+      },
+      {
+        name: "List 2",
+        img: "https://images.unsplash.com/photo-1605460375648-278bcbd579a6",
+      },
+    ],
+  },
+};
