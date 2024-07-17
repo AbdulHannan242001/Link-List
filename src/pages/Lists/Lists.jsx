@@ -162,7 +162,7 @@ const Lists = () => {
             <div className='w-full md:px-0 px-8 mt-4 md:mt-8 md:w-4/12'>
                 <div onClick={handleNewItem} className='p-2 w-3/12 ml-auto mb-4 flex flex-row gap-x-2 justify-center items-center bg-slate-900 rounded-lg cursor-pointer'>
                     <CiCirclePlus className='text-3xl text-white' />
-                    <p className='text-slate-400 font-inter text-xs md:text-sm text-center'>Add New</p>
+                    <p className='text-slate-400 font-inter text-xs md:text-sm text-center text-nowrap'>Add New</p>
                 </div>
                 {lists && lists.length > 0 ? lists.map((list, index) => (
                     <div

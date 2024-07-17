@@ -74,7 +74,7 @@ const CategoryPage = () => {
                         placeholder="Search"
                     />
                 </div>
-                <div className='grid grid-cols-3 md:grid-cols-5 gap-x-4 w-full mt-8 md:mt-12'>
+                <div className='grid grid-cols-3 md:grid-cols-5 gap-x-4 mt-8 md:mt-12 '>
                     {Object.keys(category.subcategories).map((subCategoryName, idx) => (
                         <div
                             key={idx}
